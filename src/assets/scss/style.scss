@@ -1,0 +1,50 @@
+@import "vars";
+@import "vendor/reset";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #ECEAEA;
+
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: $primary;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+
+/* Blocks */
+@import "blocks/header.scss";
+@import "blocks/container.scss";
+@import "blocks/page.scss";
+@import "blocks/btn.scss";
+@import "blocks/input.scss";
+@import "blocks/nav.scss";
+@import "blocks/catalog.scss";
+@import "blocks/footer.scss";
+@import "blocks/contact.scss";
+
+
+
+

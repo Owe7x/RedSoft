@@ -1,0 +1,14 @@
+.header {
+    padding: 24px 0px;
+    border-bottom: 1px solid #cccccc;
+}
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+form {
+    display: flex;
+    width: 100%;
+}
